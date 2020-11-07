@@ -1,0 +1,440 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+    font-family: Nunito; 
+}
+
+* {
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@keyframes shake {
+  10%{
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  30% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40% {
+    transform: translate3d(1px, 0, 0);
+  }
+
+  60% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+button {
+		background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#log {
+	right: 40px;
+	top: 40px;
+	cursor: pointer;
+	position: absolute;
+	}
+
+#log:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+#twitter{
+	bottom: 40px;
+	right: 137px;
+	position: absolute;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: opacity 0.5s ease;
+
+}
+
+#kofi {
+
+	bottom: 40px;
+	right: 40px;
+	position: absolute;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: opacity 0.5s ease;
+}
+
+#kofi:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+#twitter:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+#universe {
+  height:55%;
+  width:100%;
+  display: block;
+	position: relative;
+}
+
+#universe::after {
+  content: "";
+	background-image: url("../img/chakra-685024_1280.jpg");
+	background-position: 50% 52.5%;
+	background-size: cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  animation: pulse 20s infinite;
+  animation: huechange 300s infinite;
+  animation: scale_pulse 60s infinite;
+
+}
+
+#consciousness::after {
+  content: "";
+  background-image: url("../img/chakra-703810_1280.png");
+	background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  /*
+  animation: huechange 1200s infinite;
+  animation: scale_pulse 240s infinite;*/
+}
+
+@keyframes scale_pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes huechange {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+
+        -moz-filter: hue-rotate(0deg);
+
+        -o-filter: hue-rotate(0deg);
+
+        filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+
+        -moz-filter: hue-rotate(360deg);
+
+        -o-filter: hue-rotate(360deg);
+
+        filter: hue-rotate(360deg);
+
+  }
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+
+        -moz-filter: hue-rotate(0deg);
+
+        -o-filter: hue-rotate(0deg);
+
+        filter: hue-rotate(0deg);
+  }
+}
+
+
+@keyframes huechange_two {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+
+        -moz-filter: hue-rotate(0deg);
+
+        -o-filter: hue-rotate(0deg);
+
+        filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(-360deg);
+
+        -moz-filter: hue-rotate(-360deg);
+
+        -o-filter: hue-rotate(-360deg);
+
+        filter: hue-rotate(-360deg);
+
+  }
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+
+        -moz-filter: hue-rotate(0deg);
+
+        -o-filter: hue-rotate(0deg);
+
+        filter: hue-rotate(0deg);
+  }
+}
+
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.3;
+
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+#consciousness {
+  height: 45%;
+  width: 100%;
+  display: inline-block;
+	position: relative;
+
+}
+
+
+
+select {
+	display: none;
+}
+
+.prayer {
+	padding: 30px;
+	background-color: #111111;
+	color: #dedede;
+	margin: 20px;
+	width: auto;
+	font-size: 24px;
+	margin-left: 0px;
+	display: table;
+	padding-left: 80px;
+	padding-right: 70px;
+	position: relative;
+	right: 40px;
+  border-radius: 500px 500px;
+}
+
+.will, .being, .wish {
+	display: inline-block;
+	padding-right: 6px;
+	cursor: default;
+}
+.will.focus, .being.focus, .wish.focus {
+	border-bottom: 1px #dedede dashed;
+	padding-right: 0px;
+
+	transition: color 0.1s ease, border-bottom 0.25s linear;
+	cursor: pointer;
+}
+.will.focus:hover, .being.focus:hover, .wish.focus:hover {
+	color: white;
+	border-bottom: 1px white dashed;
+}
+
+
+
+#focus {
+	height: 94px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	transition: box-shadow 5s ease;
+}
+
+.prayer.focus {
+	display: inline-block;
+	width: 80%;
+	border-radius: 0 0;
+	right: 0;
+	padding-left: 40px;
+	margin: 0px;
+	margin-right: 0;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#create {
+	background-color: white;
+	color: #111111;
+	font-size: 24px;
+	width: 20%;
+	display: inline;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	height: 100%;
+	margin: 0;
+	line-height: 0;
+	float:right;
+	border-radius: 500px 500px;
+	padding-right: 40px;
+	position: relative;
+	left: 40px;
+	
+	font-weight: bolder;
+	border-bottom: 8px solid #d6d6d6;
+	font-family: Nunito Extrabold;
+	transition: background-color 2s ease, border-bottom 2s ease;
+}
+
+#create:hover {
+
+	border-bottom: 8px solid transparent;
+	transition: background-color 2s ease, border-bottom 2s ease;
+}
+
+#create:active {
+	color: transparent;
+}
+
+
+#create:hover ~ .focus {
+   	background-color: white;
+   	color: black;
+	transition: background-color 2s linear, color 2s ease;
+}
+
+#create ~ .focus {
+	background-color: #111111;
+   	color: #dedede;
+	transition: background-color 2s linear, color 2s ease;
+}
+.first {
+	opacity: 0.5;
+	/*
+  	animation: opacity_first 20s infinite;*/
+}
+
+@keyframes opacity_first {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.45;
+
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.second {
+	opacity: 0.309;
+	/*
+  	animation: opacity_second 12.361s infinite;*/
+}
+
+@keyframes opacity_second {
+  0% {
+    opacity: 0.309;
+  }
+  50% {
+    opacity: 0.25;
+
+  }
+  100% {
+    opacity: 0.309;
+  }
+}
+
+.third {
+	opacity: 0.191;
+	/*
+  	animation: opacity_third 7.64s infinite;*/
+}
+
+@keyframes opacity_third {
+  0% {
+    opacity: 0.191;
+  }
+  50% {
+    opacity: 0.141;
+
+  }
+  100% {
+    opacity: 0.191;
+  }
+}
+
+.fourth {
+	opacity: .118;
+	/*
+  	animation: opacity_fourth 4.7s infinite;*/
+}
+
+@keyframes opacity_fourth {
+  0% {
+    opacity: .118;
+  }
+  50% {
+    opacity: 0.069;
+
+  }
+  100% {
+    opacity: .118;
+  }
+}
+
+
+.fifth {
+	opacity: 0.0729;
+	/*
+  	animation: opacity_fifth 2.91s infinite;*/
+}
+
+@keyframes opacity_fifth {
+  0% {
+    opacity: 0.0729;
+  }
+  50% {
+    opacity: 0.0229;
+
+  }
+  100% {
+    opacity: 0.0729;
+  }
+}
