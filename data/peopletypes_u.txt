@@ -1,35 +1,332 @@
+Brahman adviser
+Brahman teachers
+Brahmans
+Brahmin householders
+Brahmins
+Buddhist   monks
+Buddhist disciple
+Buddhist scholars
+Buddhists
+Captains
+Chinese
+Chinese translator
+Councilors
+Dhamma-follower
+Indian thinker
+Indian warriors
+Teacher
+Teacher of gods
+accuser
 actor
 actors
+adversaries
+advisers
+advisor
+agent
+alms-goer
+alms-goers
+ancestors
+apprentice
+arbitrator
+archer
+archers
+aristocrat
+aristocrats
+artisans
+aspirants
+assassin
 assistant
+assistants
+associates
+attendant
+attendant disciple
+attendant-followers
+audience
 author
+authors
+bandits
+basket-weaver
+beauty queen
+beggars
+beginners
+believer
+brigands
 brother
+brothers
 businessman
+businessmen
+cabinet members
+candidate
+candidates
+captor
 carpenter
+chief
+chief consort
+chief follower
+chief minister
 chief ministers
+chieftains
+children
+citizen
+citizens
+cleric
+co -associates
+co-associate
+co-associates
 colleagues
+companion
+companions
+compatriot
+comrade
+comrades
+conqueror
+conquerors
+contemplatives
+counsel
+counselor
+counselors
+cousin
+coward
+creator
+creators
+creditors
+criminal
+criminals
+critics
+crown princes
 daughter
+daughter-in-law
+daughters
+dependents
+descendants
+descendents
+devotee
+disciple
+disciples
+divers
+doctor
+doctors
+donor
+donors
+driver
+editor
+elders
+emperor
 employees
+enemies
+enemy
+eunuch
+executioner
 expert
+exponents
+family members
+farmer
+farmers
 father
 father-in-law
+fathers
+fellows
+fisherman
+fishermen
+follower
+followers
+forefathers
+founder
+friend
+friends
+gambler
+generals
+goddess
+goer
+goldsmith
+grandchildren
+guards
 guests
+guide
+headman
+hearers
+heir
+heir-apparent
+heirs
+hero
+heroes
+high official
+high officials
+historians
+homeless
+hooligans
+host
+householders
+hunter
 husband
+husbands
 inhabitants
+instructor
+interlocutors
+ivory-carver
+judges
+killer
+king
 kings
+kings ministers
+laborer
+landlord
+landlords
+layman
+leader
+leaders
+learner
+learners
+liar
+listener
+listeners
+lord
+lords
+magician
+maker
+master
+meditator
+member
+members
+merchant
+merchant youth
+merchants
+messenger
+metalworker
 ministers
+mistress
+monk
+monk guards
 monks
 mother
 mother-in-law
+mothers
+murderers
+newcomer
+nobles
+noblewoman
+novices
+nun
+nuns
+nurse
+offender
+offenders
+officers
 officials
+opponent
+oppressor
+outcast
 owner
+owners
+painter
+parents
+partner
+passer
+patient
+penniless
+philosopher
+physician
+pleasantness
+poets
+practitioner
+practitioners
+preacher
+preachers
+preceptor
 priest
 priests
+prime ministers
+princes
+princess
+prostitute
+public officials
+pupil
+pupils
+queen
+ranger
+readers
+rebel
+rebels
+receiver
+recipient
+recipients
+recluse
+reformer
+relatives
+resident
+residents
+robber
 robbers
+royal guests
+royal officers
+royal soldiers
+ruler
+rulers
+sages
+scavenger
+scavengers
+scholar
 scholars
+seamstress
+sectarians
+seeker
+senior government   official
+senior monk
+servant
+servants
 sister
+sisters
+slave
 slaves
+soldiers
+son
+sons
+speaker
+speculators
+spouse
+spouses
+staff
+stars
+stepmother
+stream-winner
 student
 students
+superiors
+supporter
+supporters
+surgeon
+suspect
+taxpayer
 teacher
+teachers
+teachers pupils
+thief
+thief Lord
+thieves
+toddler
+townspeople
+trainee novices
+trainer
+traveler
+travelers
+troops
+truth-speaker
+tutor
+vegetarian hosts
+victim
+villager
+villagers
+vulture trainer
+wanderer
+wanderers
+warders
+warrior
+warriors
+watchman
 wife
+winner
+witness
+wives
+worker
 workers
+youths
